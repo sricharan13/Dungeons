@@ -1,0 +1,157 @@
+
+--------------------------- Example Run 1 ---------------------------
+
+
+Player can perform 3 actions: Move, Pick and Shoot
+
+Press the following keys to control player actions:
+'m' - Move, 'p' - Pick, 's' - Shoot
+
+Press the following keys to select directions:
+'n' - NORTH, 'w' - WEST, 'e' - EAST, 's' - SOUTH
+
+Press 'q' to quit the game.
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (1, 4)
+Arrows: 3
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+
+Location Description:
+Moves: [EAST, WEST, SOUTH, NORTH]
+Arrows: 0
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: FAINT
+
+Select player action:
+Choose the direction in which player should move:
+
+Selected Action - Move, Direction - NORTH
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (0, 4)
+Arrows: 3
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+
+Location Description:
+Moves: [SOUTH, EAST]
+Arrows: 1
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: NONE
+
+Select player action:
+
+Selected Action - Pick
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (0, 4)
+Arrows: 4
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+
+Location Description:
+Moves: [SOUTH, EAST]
+Arrows: 0
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: NONE
+
+Select player action:
+Choose the direction in which player should move:
+
+Selected Action - Move, Direction - EAST
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (0, 5)
+Arrows: 4
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+
+Location Description:
+Moves: [WEST]
+Arrows: 1
+Treasure: {DIAMOND=2, RUBY=2, SAPPHIRE=2}
+Smell: NONE
+
+Select player action:
+
+Selected Action - Pick
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (0, 5)
+Arrows: 5
+Treasure: {DIAMOND=2, RUBY=2, SAPPHIRE=2}
+
+Location Description:
+Moves: [WEST]
+Arrows: 0
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: NONE
+
+Select player action:
+Choose the direction in which player should move:
+
+Selected Action - Move, Direction - WEST
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (0, 4)
+Arrows: 5
+Treasure: {DIAMOND=2, RUBY=2, SAPPHIRE=2}
+
+Location Description:
+Moves: [SOUTH, EAST]
+Arrows: 0
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: NONE
+
+Select player action:
+Choose the direction in which player should move:
+
+Selected Action - Move, Direction - SOUTH
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (1, 4)
+Arrows: 5
+Treasure: {DIAMOND=2, RUBY=2, SAPPHIRE=2}
+
+Location Description:
+Moves: [EAST, WEST, SOUTH, NORTH]
+Arrows: 0
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: FAINT
+
+Select player action:
+Choose the direction in which player should move:
+
+Selected Action - Move, Direction - WEST
+
+----------------------------------------------------------------
+
+Player Description:
+Location: (1, 3)
+Arrows: 5
+Treasure: {DIAMOND=2, RUBY=2, SAPPHIRE=2}
+
+Location Description:
+Moves: [EAST, WEST, NORTH]
+Arrows: 0
+Treasure: {DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Smell: PUNGENT
+
+Select player action:
+Choose the direction in which player should move:
+
+Selected Action - Move, Direction - NORTH
+
+Game Over, Status: LOSS

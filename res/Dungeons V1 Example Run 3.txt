@@ -1,0 +1,205 @@
+Run 3: Shows the player starting at start cave, reaching end cave visiting every cave in the process. shows the player's location and description at each step
+
+Dungeon:
+
+(0, 0): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(1, 0), NORTH=(0, 0), EAST=(0, 1), WEST=(0, 0)}, entrances: 2
+(0, 1): treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}, neighbours: {SOUTH=(1, 1), NORTH=(0, 1), EAST=(0, 2), WEST=(0, 0)}, entrances: 3
+(0, 2): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(0, 2), NORTH=(0, 2), EAST=(0, 3), WEST=(0, 1)}, entrances: 2
+(0, 3): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(0, 3), NORTH=(0, 3), EAST=(0, 3), WEST=(0, 2)}, entrances: 1
+(1, 0): treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}, neighbours: {SOUTH=(1, 0), NORTH=(0, 0), EAST=(1, 0), WEST=(1, 0)}, entrances: 1
+(1, 1): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(2, 1), NORTH=(0, 1), EAST=(1, 2), WEST=(1, 1)}, entrances: 3
+(1, 2): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(1, 2), NORTH=(1, 2), EAST=(1, 3), WEST=(1, 1)}, entrances: 2
+(1, 3): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(2, 3), NORTH=(1, 3), EAST=(1, 3), WEST=(1, 2)}, entrances: 2
+(2, 0): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(3, 0), NORTH=(2, 0), EAST=(2, 0), WEST=(2, 0)}, entrances: 1
+(2, 1): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(2, 1), NORTH=(1, 1), EAST=(2, 2), WEST=(2, 1)}, entrances: 2
+(2, 2): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(3, 2), NORTH=(2, 2), EAST=(2, 2), WEST=(2, 1)}, entrances: 2
+(2, 3): treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}, neighbours: {SOUTH=(2, 3), NORTH=(1, 3), EAST=(2, 3), WEST=(2, 3)}, entrances: 1
+(3, 0): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(3, 0), NORTH=(2, 0), EAST=(3, 1), WEST=(3, 0)}, entrances: 2
+(3, 1): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(3, 1), NORTH=(3, 1), EAST=(3, 2), WEST=(3, 0)}, entrances: 2
+(3, 2): treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}, neighbours: {SOUTH=(3, 2), NORTH=(2, 2), EAST=(3, 3), WEST=(3, 1)}, entrances: 3
+(3, 3): treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}, neighbours: {SOUTH=(3, 3), NORTH=(3, 3), EAST=(3, 3), WEST=(3, 2)}, entrances: 1
+
+Start Cave: (2, 0)
+End Cave: (0, 3)
+
+===========================================================
+Player Location: (2, 0)
+Player Treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+Directions in which player can move: [SOUTH]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player SOUTH
+===========================================================
+Player Location: (3, 0)
+Player Treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+Directions in which player can move: [NORTH, EAST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (3, 1)
+Player Treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+Directions in which player can move: [EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (3, 2)
+Player Treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+Directions in which player can move: [NORTH, EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (3, 3)
+Player Treasure: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+Directions in which player can move: [WEST]
+Treasure in Cave: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+===========================================================
+Picking Treasure
+Moving Player WEST
+===========================================================
+Player Location: (3, 2)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [NORTH, EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player NORTH
+===========================================================
+Player Location: (2, 2)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [SOUTH, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player WEST
+===========================================================
+Player Location: (2, 1)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [NORTH, EAST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player NORTH
+===========================================================
+Player Location: (1, 1)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [SOUTH, NORTH, EAST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (1, 2)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (1, 3)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [SOUTH, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player SOUTH
+===========================================================
+Player Location: (2, 3)
+Player Treasure: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+Directions in which player can move: [NORTH]
+Treasure in Cave: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+===========================================================
+Picking Treasure
+Moving Player NORTH
+===========================================================
+Player Location: (1, 3)
+Player Treasure: {RUBY=4, DIAMOND=4, SAPPHIRE=4}
+Directions in which player can move: [SOUTH, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player WEST
+===========================================================
+Player Location: (1, 2)
+Player Treasure: {RUBY=4, DIAMOND=4, SAPPHIRE=4}
+Directions in which player can move: [EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player WEST
+===========================================================
+Player Location: (1, 1)
+Player Treasure: {RUBY=4, DIAMOND=4, SAPPHIRE=4}
+Directions in which player can move: [SOUTH, NORTH, EAST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player NORTH
+===========================================================
+Player Location: (0, 1)
+Player Treasure: {RUBY=4, DIAMOND=4, SAPPHIRE=4}
+Directions in which player can move: [SOUTH, EAST, WEST]
+Treasure in Cave: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+===========================================================
+Picking Treasure
+Moving Player WEST
+===========================================================
+Player Location: (0, 0)
+Player Treasure: {RUBY=6, DIAMOND=6, SAPPHIRE=6}
+Directions in which player can move: [SOUTH, EAST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player SOUTH
+===========================================================
+Player Location: (1, 0)
+Player Treasure: {RUBY=6, DIAMOND=6, SAPPHIRE=6}
+Directions in which player can move: [NORTH]
+Treasure in Cave: {RUBY=2, DIAMOND=2, SAPPHIRE=2}
+===========================================================
+Picking Treasure
+Moving Player NORTH
+===========================================================
+Player Location: (0, 0)
+Player Treasure: {RUBY=8, DIAMOND=8, SAPPHIRE=8}
+Directions in which player can move: [SOUTH, EAST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (0, 1)
+Player Treasure: {RUBY=8, DIAMOND=8, SAPPHIRE=8}
+Directions in which player can move: [SOUTH, EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (0, 2)
+Player Treasure: {RUBY=8, DIAMOND=8, SAPPHIRE=8}
+Directions in which player can move: [EAST, WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Picking Treasure
+Moving Player EAST
+===========================================================
+Player Location: (0, 3)
+Player Treasure: {RUBY=8, DIAMOND=8, SAPPHIRE=8}
+Directions in which player can move: [WEST]
+Treasure in Cave: {RUBY=0, DIAMOND=0, SAPPHIRE=0}
+===========================================================
+Game Over
+Trying to move player EAST
+game over, cannot move player
+Trying to pick treasure
+game over, cannot pick treasure
+
+----------------------------------------------------------------
